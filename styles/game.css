@@ -25,6 +25,8 @@ section{
 	align-items: center;
 	justify-items: center;
 	width: fit-content;
+	position: relative;
+	top: 15px;
 }
 #time{
 	width: 100px;
@@ -105,6 +107,8 @@ h1{
 	color: var(--color_fonts);
 	font-weight: 600;
 	text-align: center;
+	position: relative;
+	top: 10px;
 }
 button{
 	padding: 10px 35px;
