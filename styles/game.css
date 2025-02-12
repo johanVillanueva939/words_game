@@ -15,7 +15,7 @@ main{
 	align-items: center;
 	background: url('../assets/images/cell_arena_bg.webp') no-repeat center center;
 	background-size: cover;
-	gap: 20px;
+	gap: 10px;
 }
 /* Section contains the all players */
 section{
@@ -25,7 +25,6 @@ section{
 	align-items: center;
 	justify-items: center;
 	width: fit-content;
-	gap: 10px;
 }
 #time{
 	width: 100px;
@@ -51,8 +50,8 @@ p{
 }
 /* Position of each player in the grid */
 .player{
-	width: 120px;
-	height: 120px;
+	width: 100px;
+	height: 100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
